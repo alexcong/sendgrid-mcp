@@ -18,7 +18,7 @@ deno task publish       # Publish to JSR
 deno run --allow-env --allow-net --allow-read main.ts
 
 # Run from JSR
-deno run --allow-env --allow-net --allow-read jsr:@cong/mcp-server
+deno run --allow-env --allow-net --allow-read jsr:@cong/sendgrid-mcp
 
 # Debug with MCP Inspector
 npx @modelcontextprotocol/inspector deno run --allow-env --allow-net --allow-read main.ts

@@ -1,5 +1,5 @@
 {
-  "name": "@cong/mcp-server",
+  "name": "@cong/sendgrid-mcp",
   "version": "1.0.0",
   "description": "A Model Context Protocol (MCP) server for sending emails via SendGrid API",
   "license": "MIT",
