@@ -1,0 +1,25 @@
+# Deno cache and dependencies
+deno.lock
+deno_dir/
+.deno/
+.deno_cache/
+.deno_modules/
+
+# VS Code settings
+.vscode/
+
+# Logs
+*.log
+
+# Environment files
+.env
+.env.*
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Test coverage
+coverage/
+
+.claude
