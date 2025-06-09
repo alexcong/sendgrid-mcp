@@ -24,10 +24,10 @@ A Model Context Protocol (MCP) server implementation that provides email sending
 
 ```bash
 # Install from JSR
-deno add jsr:@sendgrid/mcp-server
+deno add jsr:@cong/mcp-server
 
 # Or use directly without installation
-deno run --allow-env --allow-net --allow-read jsr:@sendgrid/mcp-server
+deno run --allow-env --allow-net --allow-read jsr:@cong/mcp-server
 ```
 
 ### Option 2: From Source
@@ -275,7 +275,7 @@ The test suite covers:
         "--allow-env",
         "--allow-net",
         "--allow-read",
-        "jsr:@sendgrid/mcp-server"
+        "jsr:@cong/mcp-server"
       ],
       "env": {
         "SENDGRID_API_KEY": "your-sendgrid-api-key-here",
